@@ -1,0 +1,123 @@
+.attribution { font-size: 11px; position: absolute; bottom: 0; transform: translate(-50%, -50%); margin: 0;/* left: 50% */ }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* GENERAL STYLES */ 
+* {
+  font-family: 'Libre Franklin', sans-serif; 
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: space-between;*/
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 2.2em;
+  margin: 40px 0 15px 0;
+  color: hsl(0, 0%, 59%);
+}
+
+span {
+  font-weight: 700;
+  color: hsl(209, 33%, 12%);
+}
+
+p {
+  font-weight: 300;
+  margin: 0 0 35px 0;
+  color: hsl(209, 33%, 12%);
+}
+
+small {
+  font-weight: 300;
+  font-size: 11px;
+  color: hsl(0, 0%, 59%);
+}
+
+/* CONTENT */ 
+.logo {
+  margin-top: 80px;
+}
+
+.dashboard {
+  width: 600px;
+  height: auto;
+  margin-top: 60px; 
+}
+
+#email {
+  padding: 16px 30px; 
+  border-radius: 35px;
+  width: 320px;
+  border: 1px solid hsl(223, 100%, 88%);
+  margin-right: 10px;
+  font-size: 15px;
+  color: hsl(209, 33%, 12%);
+}
+
+::placeholder {
+  color: hsl(223, 100%, 88%);
+}
+
+#email:focus {
+  border: 1px solid hsl(354, 100%, 66%);
+  outline: none;
+}
+
+button {
+  background: hsl(223, 87%, 63%); 
+  color: white;
+  border-radius: 25px;
+  padding: 17px 56px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+
+}
+
+.error {
+  height: 19px;
+}
+
+#error-msg {
+  color: hsl(0, 0%, 59%); 
+  font-size: 11px; 
+  font-style: italic;
+  margin: 5px 0 0 -257px;
+  font-weight: 600;
+}
+
+.social-media-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 0 20px 0;
+  gap: 10px;
+
+}
+
+.circle {
+  color: hsl(223, 87%, 63%); 
+  border: 1px solid rgba(78, 125, 242, .2); 
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle:hover {
+  color: white;
+  background: hsl(223, 87%, 63%); 
+  border: 1px solid hsl(223, 87%, 63%);
+  cursor: pointer;
+}
