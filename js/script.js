@@ -40,13 +40,8 @@ const checkEmail = () => {
 
 
 
-/* Notes: 
+/* 
 
-not sure why you can use both const isEmailValid and let isEmailValid since they are the same???? are they??? 
-
-*/
-
-/*
 Learning Notes: 
 
 The event listener is broken up into 3 seperate functions. It's not required but it's better practice for bigger projects. 
